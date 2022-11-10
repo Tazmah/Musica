@@ -1,0 +1,184 @@
+background: #1D2123;
+secondary-yellow: #FACD66;
+white: #ffffff
+black variant: #1A1E1F;
+font font-family: 'Quicksand';
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+font-family: 'Quicksand', sans-serif;
+
+background: linear-gradient(0deg, rgba(29, 33, 35, 0.3), rgba(29, 33, 35, 0.3)),
+linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+<div class="flex items-center gap-7">
+                <div class="bg-blue h-hero rounded-3xl w-60 flex grid grid-cols-2">
+                    <div class="p-6 grid items-center justify-end">
+                        <p class="font-normal">Currated playlist</p>
+                        <div class="">
+                            <h1 class="text-3xl font-bold">R & B Hits</h1>
+                            <p class="font-normal">
+                                All mine, Lie again, Petty call me everyday,
+                                Out of time, No love, Bad habit,
+                                and so much more
+                            </p>
+                        </div>
+                        <div class="pt-6 flex items-center gap-6">
+                            <div class="flex relative">
+                                <img src="../img/Ellipse 2.svg" alt="">
+                                <img src="../img/Ellipse 3.svg" alt="" class="absolute left-4">
+                                <img src="../img/Ellipse 4.svg" alt="" class="absolute left-8">
+                                <img src="../img/Ellipse 5.svg" alt="" class="absolute left-12">
+                                <img src="../img/Ellipse 6.svg" alt="" class="absolute left-16">
+                            </div>
+                            <div class=" ml-16 flex gap-4 items-center">
+                                <img src="../img/Heart.svg" alt="" class="">
+                                <p>33k Likes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative flex items-center justify-center">
+                        <img src="../img/Vector.svg" alt="">
+                        <img src="../img/Pexels Photo by Eric Esma.svg" alt="" class="absolute top-0 right-0">
+                    </div>
+                </div>
+                <div class="w-30 h-80  p-3 grid gap-6">
+                    <h2 class="font-bold text-2xl">Top charts</h2>
+                    <div class="p-3 flex items-center bg-black-variant gap-6 justify-between rounded-lg">
+                        <div class="flex items-center gap-4">
+                            <img src="../img/Rectangle 17.svg" alt="">
+                            <div class="">
+                                <h3>Golden age of 80s</h3>
+                                <p>Sean swadder</p>
+                                <p>2:34:45</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="../img/Heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="p-2 flex items-center bg-black-variant gap-6 justify-between rounded-lg ">
+                        <div class="flex items-center gap-4">
+                            <img src="../img/Rectangle 17.svg" alt="">
+                            <div class="">
+                                <h3>Golden age of 80s</h3>
+                                <p>Sean swadder</p>
+                                <p>2:34:45</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="../img/Heart.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="p-3 flex items-center bg-black-variant gap-6 justify-between rounded-lg">
+                        <div class="flex items-center gap-4">
+                            <img src="../img/Rectangle 17.svg" alt="">
+                            <div class="">
+                                <h3>Golden age of 80s</h3>
+                                <p>Sean swadder</p>
+                                <p>2:34:45</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="../img/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+<div class="p-3 flex  bg-black-variant  justify-between rounded-lg">
+                    <div class="grid items-center gap-4">
+                        <img src="../img/Rectangle 17.svg" alt="">
+                        <div class="mt-2">
+                            <h3>Golden age of 80s</h3>
+                            <p>Sean swadder</p>
+                            <p>2:34:45</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../img/Heart.svg" alt="" class="">
+                    </div>
+                </div>
+                <div class="p-3 flex  bg-black-variant justify-between rounded-lg">
+                    <div class="grid items-center gap-4">
+                        <img src="../img/Rectangle 17.svg" alt="">
+                        <div class="mt-2">
+                            <h3>Golden age of 80s</h3>
+                            <p>Sean swadder</p>
+                            <p>2:34:45</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../img/Heart.svg" alt="">
+                    </div>
+                </div>
+                <div class="p-3 flex  bg-black-variant justify-between rounded-lg">
+                    <div class="grid items-center gap-4">
+                        <img src="../img/Rectangle 17.svg" alt="">
+                        <div class="mt-2">
+                            <h3>Golden age of 80s</h3>
+                            <p>Sean swadder</p>
+                            <p>2:34:45</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../img/Heart.svg" alt="">
+                    </div>
+                </div>
+                <div class="p-3 flex  bg-black-variant justify-between rounded-lg">
+                    <div class="grid items-center gap-4">
+                        <img src="../img/Rectangle 17.svg" alt="">
+                        <div class="mt-2">
+                            <h3>Golden age of 80s</h3>
+                            <p>Sean swadder</p>
+                            <p>2:34:45</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../img/Heart.svg" alt="">
+                    </div>
+                </div>
+                <div class="p-3 flex  bg-black-variant gap-10 justify-between rounded-lg">
+                    <div class="grid items-center gap-4">
+                        <img src="../img/Rectangle 17.svg" alt="">
+                        <div class="">
+                            <h3>Golden age of 80s</h3>
+                            <p>Sean swadder</p>
+                            <p>2:34:45</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <img src="../img/Heart.svg" alt="">
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
