@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Musica</title>
+    <!-- 
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --background: #1D2123;
+            --secondary-yellow: #FACD66;
+            --white-color: #ffffff;
+            --black-variant: #1A1E1F;
+        }
+
+        npx tailwindcss -i ./src/input-style.css -o ./public/output-style.css --watch
+     -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="output-style.css">
+
+</head>
+
+<body class="bg-background font-sans text-white-color">
+    <main class="grid w-100 p-4">
+        <header class="flex w-100 justify-between items-center ">
+            <div class="flex items-center gap-6">
+                <img src="../img/logo.svg" alt="logo">
+                <div class="hidden items-center justify-start  gap-6 lg:flex">
+                    <i class="fa-sharp fa-solid border-none outline-none fa-magnifying-glass text-white-color"></i>
+                    <input type="text" placeholder="Search" class="p-1 bg-transparent text-white-color">
+                </div>
+            </div>
+            <div id="toggle" class=" flex lg:hidden">
+                <!-- <i class="fas fa-bars-staggered"></i> -->
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+        <section class=" w-100 my-4 grid items-center rounded-xl gap-6 md:flex ">
+            <aside class=" my-8 hidden  gap-6 w-5 lg:grid">
+                <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6 ">
+                    <li class="flex items-center justify-center">
+                        <img src="../img/Home.svg" alt="">
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <img src="../img/music-library-2.png" alt="">
+                    </li>
+                    <li class="flex items-center justify-center"><img src="../img/radio.svg" alt=""></li>
+                    <li class="flex items-center justify-center"><img src="../img/video-horizontal.svg" alt=""></li>
+                </ul>
+                <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6">
+                    <li class="flex items-center justify-center"><img src="../img/frame.svg" alt=""></li>
+                    <li class="flex items-center justify-center"><img src="../img/Logout.svg" alt=""></li>
+                </ul>
+            </aside>
+            <aside id="two" class=" my-8 hidden absolute top-6 z-20 gap-6 w-95 bg-background lg:w-100">
+                <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6 ">
+                    <li class="flex items-center justify-center">
+                        <img src="../img/Home.svg" alt="">
+                    </li>
+                    <li class="flex items-center justify-center">
+                        <img src="../img/music-library-2.png" alt="">
+                    </li>
+                    <li class="flex items-center justify-center"><img src="../img/radio.svg" alt=""></li>
+                    <li class="flex items-center justify-center"><img src="../img/video-horizontal.svg" alt=""></li>
+                </ul>
+                <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6">
+                    <li class="flex items-center justify-center"><img src="../img/frame.svg" alt=""></li>
+                    <li class="flex items-center justify-center"><img src="../img/Logout.svg" alt=""></li>
+                </ul>
+            </aside>
+            <div class=" rounded-3xl w-100 grid lg:flex">
+                <div class="relative flex  lg:flex">
+                    <img src="../img/Lead-image.svg" alt="">
+                </div>
+                <div class="grid items-center lg:p-6">
+                    <div class="">
+                        <h1 class="text-3xl font-bold">Tomorrow’s tunes</h1>
+                        <br><br>
+                        <p class="font-normal ">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus
+                            venenatis
+                        </p>
+                        <br>
+                        <p class="font-normal ">
+                            64 songs ~ 16 hrs+
+                        </p>
+                    </div>
+                    <div class="pt-6 flex items-center gap-6 flex-wrap">
+                        <div class="p-2.5 flex items-center bg-btn rounded-2xl gap-2">
+                            <img src="../img/play2.svg" alt="">
+                            <p>Play All</p>
+                        </div>
+                        <div class="p-2.5 flex items-center bg-btn rounded-2xl gap-2">
+                            <img src="../img/music-square-add.svg" alt="">
+                            <p class="break-words">Add to collection</p>
+                        </div>
+                        <div class="p-2.5 flex items-center bg-btn rounded-3xl gap-2">
+                            <img src="../img/Heart.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- <section class=" max-w-100 my-4 grid items-center  rounded-xl ml-24"> -->
+
+        <section class=" max-w-100 my-4 grid items-center  rounded-xl pb-24">
+            <div class="p-3 flex  bg-black-variant justify-between rounded-lg">
+                <div class="grid items-center gap-2 md:flex">
+                    <img src="../img/Rectangle 17.svg" alt="">
+                    <div class="mt-2">
+                        <h3>Golden age of 80s</h3>
+                        <p>Sean swadder</p>
+                        <p>2:34:45</p>
+                    </div>
+                </div>
+                <div class="">
+                    <img src="../img/Heart.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <div
+            class="bg-background z-10 w-95 fixed bottom-0 p-4 drop-shadow-shade grid grid-cols-2 items-center justify-between  md:grid-cols-3">
+            <div class="flex items-center gap-2">
+                <img src="../img/Rectangle 15.svg" alt="">
+                <div>
+                    <h3>Seasons in</h3>
+                    <p>James</p>
+                </div>
+            </div>
+            <div class="grid items-center justify-center ">
+                <div class=" flex items-center justify-center ">
+                    <div class=" flex items-center gap-4 justify-between ">
+                        <img src=" ../img/shuffle.svg" alt="">
+                        <img src="../img/previous.svg" alt="">
+                        <img src="../img/play.svg" alt="">
+                        <img src="../img/next.svg" alt="">
+                        <img src="../img/repeate-one.svg" alt="">
+                    </div>
+                </div>
+                <div>
+                    <input type="range" class="w-100">
+                </div>
+            </div>
+            <div class="hidden gap-4 items-center justify-end md:flex">
+                <img src="../img/volume-high.svg" alt="">
+                <input type="range">
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.5,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 15,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 6,
+                    spaceBetween: 20,
+                },
+            },
+        });
+    </script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

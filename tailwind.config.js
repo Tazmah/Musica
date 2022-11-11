@@ -9,6 +9,7 @@ module.exports = {
       "secondary-yellow": "#FACD66",
       "black-variant": "#1A1E1F",
       "transparent": "transparent",
+      "btn": "#ffffff12",
     },
     fontFamily: {
       // sans: ['Graphik', 'sans-serif'],
