@@ -231,35 +231,42 @@
                 </div>
             </div>
         </section>
-        <div
-            class="bg-background z-10 w-95 fixed bottom-0 p-4 drop-shadow-shade grid grid-cols-2 items-center justify-between  md:grid-cols-3">
-            <div class="flex items-center gap-2">
-                <img src="../img/Rectangle 15.svg" alt="">
-                <div>
-                    <h3>Seasons in</h3>
-                    <p>James</p>
-                </div>
+    </main>
+    <div
+        class="bg-background z-10 w-100 fixed bottom-0 p-4 drop-shadow-shade grid grid-cols-2 items-center justify-between  md:grid-cols-3">
+        <div class="flex items-center gap-2">
+            <img src="../img/Rectangle 15.svg" alt="">
+            <div>
+                <h3>Seasons in</h3>
+                <p>James</p>
             </div>
-            <div class="grid items-center justify-center ">
-                <div class=" flex items-center justify-center ">
-                    <div class=" flex items-center gap-4 justify-between ">
+        </div>
+        <div class="grid items-center justify-center ">
+            <div class=" flex items-center justify-center ">
+                <div class=" flex items-center gap-4 justify-between ">
+                    <div class="hidden items-center md:flex">
                         <img src=" ../img/shuffle.svg" alt="">
                         <img src="../img/previous.svg" alt="">
+                    </div>
+                    <!-- div.flex.items-center -->
+                    <div class="flex items-center">
                         <img src="../img/play.svg" alt="">
                         <img src="../img/next.svg" alt="">
+                    </div>
+                    <div class="hidden items-center md:flex">
                         <img src="../img/repeate-one.svg" alt="">
                     </div>
                 </div>
-                <div>
-                    <input type="range" class="w-100">
-                </div>
             </div>
-            <div class="hidden gap-4 items-center justify-end md:flex">
-                <img src="../img/volume-high.svg" alt="">
-                <input type="range">
+            <div class="hidden md:flex">
+                <input type="range" class="w-100">
             </div>
         </div>
-    </main>
+        <div class="hidden gap-4 items-center justify-end md:flex">
+            <img src="../img/volume-high.svg" alt="">
+            <input type="range">
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {

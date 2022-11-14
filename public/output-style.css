@@ -663,6 +663,14 @@ html {
   width: 95%;
 }
 
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
 .list-none {
   list-style-type: none;
 }
