@@ -605,6 +605,14 @@ html {
   bottom: 0px;
 }
 
+.bottom-8 {
+  bottom: 2rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -661,10 +669,6 @@ html {
 
 .w-95 {
   width: 95%;
-}
-
-.w-70 {
-  width: 70%;
 }
 
 .w-80 {
@@ -845,9 +849,19 @@ html {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+@media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:w-50 {
