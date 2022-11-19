@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3rd Musica</title>
+    <title>Musica | Collections</title>
     <!-- 
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
@@ -29,10 +29,43 @@
 </head>
 
 <body class="bg-background font-sans text-white-color">
+    <aside id="two" class="hidden relative  z-20 gap-6 w-100 h-screen bg-background" style="height: 100vh;">
+        <div class="flex absolute p-4 items-center cursor-pointer border-solid bg-secondary-yellow" id="close">
+            <i class="items-right fas fa-x"></i>
+        </div>
+        <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6 ">
+            <a href="index.html">
+                <li class="flex items-center justify-center">
+                    <img src="../img/Home.svg" alt="">
+                </li>
+            </a>
+            <a href="collection.html">
+                <li class="flex items-center justify-center">
+                    <img src="../img/music-library-2.png" alt="">
+                </li>
+            </a>
+            <a href="radio.html">
+                <li class="flex  items-center justify-center"><img src="../img/radio.svg" alt=""></li>
+            </a>
+            <a href="fourth.html">
+                <li class="flex items-center justify-center"><img src="../img/video-horizontal.svg" alt=""></li>
+            </a>
+        </ul>
+        <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6">
+            <a href="profile.html">
+                <li class="flex items-center justify-center"><img src="../img/frame.svg" alt=""></li>
+            </a>
+            <a href="logout.html">
+                <li class="flex items-center justify-center"><img src="../img/Logout.svg" alt=""></li>
+            </a>
+        </ul>
+    </aside>
     <main class="grid w-100 p-4">
         <header class="flex w-100 justify-between items-center ">
             <div class="flex items-center gap-6">
-                <img src="../img/logo.svg" alt="logo">
+                <a href="index.html">
+                    <img src="../img/logo.svg" alt="logo">
+                </a>
                 <div class="hidden items-center justify-start  gap-6 lg:flex">
                     <i class="fa-sharp fa-solid border-none outline-none fa-magnifying-glass text-white-color"></i>
                     <input type="text" placeholder="Search" class="p-1 bg-transparent text-white-color">
@@ -46,18 +79,30 @@
         <section class=" w-100 my-4 grid items-center rounded-xl gap-6 md:flex ">
             <aside class=" my-8 hidden  gap-6 w-5 lg:grid">
                 <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6 ">
-                    <li class="flex items-center justify-center">
-                        <img src="../img/Home.svg" alt="">
-                    </li>
-                    <li class="flex items-center justify-center">
-                        <img src="../img/music-library-2.png" alt="" class="fill-secondary-yellow">
-                    </li>
-                    <li class="flex items-center justify-center"><img src="../img/radio.svg" alt=""></li>
-                    <li class="flex items-center justify-center"><img src="../img/video-horizontal.svg" alt=""></li>
+                    <a href="index.html">
+                        <li class="flex items-center justify-center">
+                            <img src="../img/Home.svg" alt="">
+                        </li>
+                    </a>
+                    <a href="collection.html">
+                        <li class="flex items-center justify-center">
+                            <img src="../img/music-library-2.png" alt="">
+                        </li>
+                    </a>
+                    <a href="radio.html">
+                        <li class="flex items-center justify-center"><img src="../img/radio.svg" alt=""></li>
+                    </a>
+                    <a href="fourth.html">
+                        <li class="flex items-center justify-center"><img src="../img/video-horizontal.svg" alt=""></li>
+                    </a>
                 </ul>
                 <ul class="grid list-none gap-6 items-center bg-black-variant rounded-3xl px-2 py-6">
-                    <li class="flex items-center justify-center"><img src="../img/frame.svg" alt=""></li>
-                    <li class="flex items-center justify-center"><img src="../img/Logout.svg" alt=""></li>
+                    <a href="profile.html">
+                        <li class="flex items-center justify-center"><img src="../img/frame.svg" alt=""></li>
+                    </a>
+                    <a href="logout.html">
+                        <li class="flex items-center justify-center"><img src="../img/Logout.svg" alt=""></li>
+                    </a>
                 </ul>
             </aside>
             <aside id="two" class=" my-8 hidden absolute top-6 z-20 gap-6 w-95 bg-background lg:w-100">

@@ -577,6 +577,18 @@ html {
   top: 1.5rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-4 {
   left: 1rem;
 }
@@ -597,22 +609,6 @@ html {
   top: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-8 {
-  bottom: 2rem;
-}
-
-.bottom-4 {
-  bottom: 1rem;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -631,16 +627,16 @@ html {
   margin-bottom: 2rem;
 }
 
+.ml-24 {
+  margin-left: 6rem;
+}
+
 .ml-16 {
   margin-left: 4rem;
 }
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.ml-24 {
-  margin-left: 6rem;
 }
 
 .flex {
@@ -673,6 +669,10 @@ html {
 
 .w-80 {
   width: 80%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .list-none {
@@ -711,16 +711,20 @@ html {
   gap: 1.5rem;
 }
 
-.gap-4 {
-  gap: 1rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .break-words {
@@ -735,12 +739,16 @@ html {
   border-radius: 1.5rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
-.rounded-2xl {
-  border-radius: 1rem;
+.border-solid {
+  border-style: solid;
 }
 
 .border-none {
@@ -761,13 +769,18 @@ html {
   background-color: rgb(26 30 31 / var(--tw-bg-opacity));
 }
 
+.bg-btn {
+  background-color: #ffffff12;
+}
+
 .bg-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(96 158 175 / var(--tw-bg-opacity));
 }
 
-.bg-btn {
-  background-color: #ffffff12;
+.bg-secondary-yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 205 102 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -778,20 +791,20 @@ html {
   padding: 0.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-3 {
-  padding: 0.75rem;
-}
-
 .p-2\.5 {
   padding: 0.625rem;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-2 {
@@ -826,12 +839,12 @@ html {
   line-height: 2rem;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .text-white-color {
@@ -847,6 +860,10 @@ html {
 .drop-shadow-shade {
   --tw-drop-shadow: drop-shadow(0px -25px 100px rgba(16, 16, 16, 0.51));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:fill-secondary-yellow:hover {
+  fill: #FACD66;
 }
 
 @media (min-width: 640px) {
